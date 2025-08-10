@@ -4,13 +4,13 @@ This repository contains code for a machine learning project that classifies tex
 
 ---
 
-## 🎯 Aim
+## Aim
 
 The main objective is to **classify if a person is struggling with mental health issues** from their text messages. This is a critical step toward providing timely support and intervention.
 
 ---
 
-## 💾 Dataset
+## Dataset
 
 The model is trained on the `mental_health.csv` dataset, which includes two columns:
 
@@ -21,7 +21,7 @@ This dataset is valuable for researchers and professionals interested in underst
 
 ---
 
-## 🛠️ Dependencies
+## Dependencies
 
 To run the code, you'll need the following Python libraries:
 
@@ -37,7 +37,7 @@ You can install these dependencies using `pip`:
 ```bash
 pip install pandas numpy matplotlib wordcloud nltk scikit-learn
 ```
-# Methodology
+## Methodology
 
 The project follows a standard machine learning pipeline:
 
@@ -50,3 +50,7 @@ The project follows a standard machine learning pipeline:
 4.  **Evaluation**: The trained models are evaluated on a separate test set to measure their accuracy and performance.
 
 This methodology combines NLP with machine learning to build an automated system for identifying signals of mental distress in text.
+
+## Results
+
+The higest accuracy is in SVC Classifier
