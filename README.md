@@ -37,7 +37,7 @@ You can install these dependencies using `pip`:
 ```bash
 pip install pandas numpy matplotlib wordcloud nltk scikit-learn
 ```
-# Method
+# Methodology
 
 The project follows a standard machine learning pipeline:
 
